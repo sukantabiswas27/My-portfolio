@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Download, Mail, Phone, MapPin } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
+import heroProfile from "@/assets/hero-profile.jpg";
 
 const HeroSection = () => {
   return (
@@ -14,59 +15,79 @@ const HeroSection = () => {
       
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 py-20">
-        <div className="max-w-4xl mx-auto text-center">
-          {/* Main Content */}
-          <div className="animate-fade-in-up">
-            <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
-              Sukanta Biswas
-            </h1>
-            <h2 className="text-2xl md:text-3xl font-light text-white/90 mb-6">
-              System Administrator
-            </h2>
-            <p className="text-lg md:text-xl text-white/80 max-w-3xl mx-auto leading-relaxed mb-12">
-              System Administrator with 2+ years of experience in Linux server management, 
-              LAMP stack deployment, cloud platforms, and IT infrastructure support. 
-              Skilled in troubleshooting, DevOps, Docker, and automation.
-            </p>
-          </div>
+        <div className="max-w-7xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Left Content */}
+            <div className="text-center lg:text-left animate-fade-in-up">
+              <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
+                Sukanta Biswas
+              </h1>
+              <h2 className="text-2xl md:text-3xl font-light text-white/90 mb-6">
+                Linux System Administrator
+              </h2>
+              <p className="text-lg md:text-xl text-white/80 leading-relaxed mb-12">
+                Linux System Administrator with 2+ years of experience in Linux server 
+                management, LAMP stack deployment, cloud platforms, and IT infrastructure 
+                support. Skilled in troubleshooting, DevOps, Docker, and automation.
+              </p>
+              
+              {/* CTA Buttons */}
+              <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start items-center mb-12">
+                <Button 
+                  variant="hero" 
+                  size="lg"
+                  asChild
+                >
+                  <a href="/Sukanta Professional Resume.pdf" download>
+                    <Download className="w-5 h-5" />
+                    Download CV
+                  </a>
+                </Button>
+                <Button 
+                  variant="professional" 
+                  size="lg"
+                  asChild
+                >
+                  <a href="#projects">
+                    View Projects
+                  </a>
+                </Button>
+              </div>
+            </div>
 
-          {/* Contact Info Cards */}
-          <div className="grid md:grid-cols-3 gap-4 mb-12 animate-scale-in">
-            <div className="bg-white/10 backdrop-blur-md rounded-lg p-4 border border-white/20">
-              <Phone className="w-6 h-6 text-white mb-2 mx-auto" />
-              <p className="text-white/90 text-sm">+91 7031614002</p>
-            </div>
-            <div className="bg-white/10 backdrop-blur-md rounded-lg p-4 border border-white/20">
-              <Mail className="w-6 h-6 text-white mb-2 mx-auto" />
-              <p className="text-white/90 text-sm">sukantabiswas27@outlook.com</p>
-            </div>
-            <div className="bg-white/10 backdrop-blur-md rounded-lg p-4 border border-white/20">
-              <MapPin className="w-6 h-6 text-white mb-2 mx-auto" />
-              <p className="text-white/90 text-sm">Kolkata, 700074</p>
+            {/* Right Profile Image */}
+            <div className="flex justify-center lg:justify-end animate-scale-in">
+              <div className="relative">
+                <div className="w-80 h-80 md:w-96 md:h-96 rounded-full bg-gradient-to-br from-primary/20 to-primary-variant/30 p-2">
+                  <div className="w-full h-full rounded-full overflow-hidden border-4 border-white/20 shadow-elegant">
+                    <img 
+                      src={heroProfile} 
+                      alt="Sukanta Biswas - System Administrator"
+                      className="w-full h-full object-cover object-center"
+                    />
+                  </div>
+                </div>
+                {/* Decorative ring */}
+                <div className="absolute inset-0 rounded-full border-2 border-white/10 animate-pulse" />
+              </div>
             </div>
           </div>
+        </div>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center animate-fade-in-up">
-            <Button 
-              variant="hero" 
-              size="lg"
-              asChild
-            >
-              <a href="/Sukanta Professional Resume.pdf" download>
-                <Download className="w-5 h-5" />
-                Download CV
-              </a>
-            </Button>
-            <Button 
-              variant="professional" 
-              size="lg"
-              asChild
-            >
-              <a href="#projects">
-                View Projects
-              </a>
-            </Button>
+        
+        {/* Contact Info Cards */}
+        <div className="grid md:grid-cols-3 gap-4 mt-16 animate-scale-in">
+          <div className="bg-white/10 backdrop-blur-md rounded-lg p-4 border border-white/20">
+            <Phone className="w-6 h-6 text-white mb-2 mx-auto" />
+            <p className="text-white/90 text-sm">+91 7031614002</p>
+          </div>
+          <div className="bg-white/10 backdrop-blur-md rounded-lg p-4 border border-white/20">
+            <Mail className="w-6 h-6 text-white mb-2 mx-auto" />
+            <p className="text-white/90 text-sm">sukantabiswas27@outlook.com</p>
+          </div>
+          <div className="bg-white/10 backdrop-blur-md rounded-lg p-4 border border-white/20">
+            <MapPin className="w-6 h-6 text-white mb-2 mx-auto" />
+            <p className="text-white/90 text-sm">Kolkata, 700074</p>
           </div>
         </div>
       </div>
