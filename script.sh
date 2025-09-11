@@ -1,3 +1,4 @@
+#!/bin/bash
 docker stop my-portfolio
 docker rm my-portfolio
 docker build -t my-portfolio .
