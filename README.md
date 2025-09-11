@@ -2,17 +2,11 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/21703a06-23f8-48d9-8aa9-6c2393dfb25b
+**URL**: https://ukantabiswas.sbs
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/21703a06-23f8-48d9-8aa9-6c2393dfb25b) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
