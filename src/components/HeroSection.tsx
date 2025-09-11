@@ -75,18 +75,18 @@ const HeroSection = () => {
         </div>
 
         
-        {/* Contact Info Cards */}
-        <div className="grid md:grid-cols-3 gap-4 mt-16 animate-scale-in">
-          <div className="bg-white/10 backdrop-blur-md rounded-lg p-4 border border-white/20">
-            <Phone className="w-6 h-6 text-white mb-2 mx-auto" />
+        {/* Contact Info */}
+        <div className="flex flex-col md:flex-row gap-8 justify-center items-center mt-16 animate-scale-in">
+          <div className="flex items-center gap-3">
+            <Phone className="w-5 h-5 text-white" />
             <p className="text-white/90 text-sm">+91 7031614002</p>
           </div>
-          <div className="bg-white/10 backdrop-blur-md rounded-lg p-4 border border-white/20">
-            <Mail className="w-6 h-6 text-white mb-2 mx-auto" />
+          <div className="flex items-center gap-3">
+            <Mail className="w-5 h-5 text-white" />
             <p className="text-white/90 text-sm">sukantabiswas27@outlook.com</p>
           </div>
-          <div className="bg-white/10 backdrop-blur-md rounded-lg p-4 border border-white/20">
-            <MapPin className="w-6 h-6 text-white mb-2 mx-auto" />
+          <div className="flex items-center gap-3">
+            <MapPin className="w-5 h-5 text-white" />
             <p className="text-white/90 text-sm">Kolkata, 700074</p>
           </div>
         </div>
