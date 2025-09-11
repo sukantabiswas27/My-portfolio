@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://ukantabiswas.sbs
+**URL**: https://sukantabiswas.sbs
 
 **Use your preferred IDE**
 
