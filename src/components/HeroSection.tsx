@@ -26,7 +26,7 @@ const HeroSection = () => {
                 System Administrator
               </h2>
               <p className="text-lg md:text-xl text-white/80 leading-relaxed mb-12">
-                Linux System Administrator with 2+ years of experience in Linux server 
+                System Administrator with 2+ years of experience in Linux server 
                 management, LAMP stack deployment, cloud platforms, and IT infrastructure 
                 support. Skilled in troubleshooting, DevOps, Docker, and automation.
               </p>
