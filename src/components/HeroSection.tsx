@@ -23,7 +23,7 @@ const HeroSection = () => {
                 Sukanta Biswas
               </h1>
               <h2 className="text-2xl md:text-3xl font-light text-white/90 mb-6">
-                Linux System Administrator
+                SYSTEM ADMINISTRATOR
               </h2>
               <p className="text-lg md:text-xl text-white/80 leading-relaxed mb-12">
                 Linux System Administrator with 2+ years of experience in Linux server 
