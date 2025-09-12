@@ -42,7 +42,7 @@ const ExperienceSection = () => {
                         </div>
                         <div className="flex items-center text-muted-foreground text-sm mb-2">
                           <Calendar className="w-4 h-4 mr-2" />
-                          <span>2022 - Present</span>
+                          <span>2024 - Present</span>
                         </div>
                         <div className="flex items-center text-muted-foreground text-sm">
                           <MapPin className="w-4 h-4 mr-2" />
