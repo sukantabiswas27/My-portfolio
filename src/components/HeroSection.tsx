@@ -20,10 +20,10 @@ const HeroSection = () => {
             {/* Left Content */}
             <div className="text-center lg:text-left animate-fade-in-up">
               <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
-                Sukanta Biswas
+                SUKANTA BISWAS
               </h1>
               <h2 className="text-2xl md:text-3xl font-light text-white/90 mb-6">
-                SYSTEM ADMINISTRATOR
+                System Administrator
               </h2>
               <p className="text-lg md:text-xl text-white/80 leading-relaxed mb-12">
                 Linux System Administrator with 2+ years of experience in Linux server 
