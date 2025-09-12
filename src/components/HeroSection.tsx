@@ -20,7 +20,7 @@ const HeroSection = () => {
             {/* Left Content */}
             <div className="text-center lg:text-left animate-fade-in-up">
               <h1 className="text-5xl md:text-7xl font-bold text-white mb-3">
-                SUKANTA BISWAS
+                Sukanta Biswas
               </h1>
               <h2 className="text-2xl md:text-3xl font-light text-white/90 mb-6">
                 System Administrator
