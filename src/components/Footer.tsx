@@ -79,7 +79,7 @@ const Footer = () => {
                   <Linkedin className="w-4 h-4" />
                 </a>
                 <a
-                  href="https://github.com/sukantabiswas"
+                  href="https://github.com/sukantabiswas27"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 bg-background/10 rounded-full hover:bg-primary-glow transition-colors duration-200"
