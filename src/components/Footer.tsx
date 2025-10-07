@@ -70,7 +70,7 @@ const Footer = () => {
               </p>
               <div className="mt-4 flex space-x-4">
                 <a
-                  href="https://linkedin.com/in/sukantabiswas"
+                  href="https://www.linkedin.com/in/sukantabiswas27"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 bg-background/10 rounded-full hover:bg-primary-glow transition-colors duration-200"
