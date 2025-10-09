@@ -2,7 +2,7 @@ import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
-const MobileAppDevelopment = () => {
+const OnPremiseVirtualization = () => {
   return (
     <div className="min-h-screen bg-gradient-subtle">
       <div className="container mx-auto px-4 py-16">
@@ -16,10 +16,10 @@ const MobileAppDevelopment = () => {
           
           <header className="mb-12">
             <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-              Mobile App Development
+              On-Premise Virtualization
             </h1>
             <p className="text-xl text-muted-foreground">
-              Native and cross-platform mobile application development for iOS and Android platforms.
+              Enterprise virtualization solutions for optimal resource utilization.
             </p>
           </header>
 
@@ -28,17 +28,17 @@ const MobileAppDevelopment = () => {
               Coming Soon
             </h2>
             <p className="text-muted-foreground mb-4">
-              Mobile application development services content will be available here soon. 
-              We create engaging mobile experiences for both iOS and Android platforms.
+              On-premise virtualization services content will be available here soon. 
+              We help optimize your infrastructure through advanced virtualization technologies.
             </p>
             <div className="space-y-4">
               <h3 className="text-lg font-medium text-foreground">Services Include:</h3>
               <ul className="list-disc list-inside text-muted-foreground space-y-2">
-                <li>Native iOS and Android development</li>
-                <li>Cross-platform React Native apps</li>
-                <li>UI/UX design for mobile</li>
-                <li>App Store optimization</li>
-                <li>Mobile app testing and deployment</li>
+                <li>VMware and Hyper-V deployment</li>
+                <li>Virtual machine migration</li>
+                <li>Resource optimization</li>
+                <li>High availability configuration</li>
+                <li>Virtualization management</li>
               </ul>
             </div>
           </section>
@@ -48,4 +48,4 @@ const MobileAppDevelopment = () => {
   );
 };
 
-export default MobileAppDevelopment;
+export default OnPremiseVirtualization;

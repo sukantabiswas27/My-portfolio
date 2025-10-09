@@ -2,7 +2,7 @@ import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
-const CloudComputing = () => {
+const DisasterRecovery = () => {
   return (
     <div className="min-h-screen bg-gradient-subtle">
       <div className="container mx-auto px-4 py-16">
@@ -16,10 +16,10 @@ const CloudComputing = () => {
           
           <header className="mb-12">
             <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-              Cloud Computing Services
+              Disaster Recovery & IT Infrastructure
             </h1>
             <p className="text-xl text-muted-foreground">
-              Professional cloud infrastructure management and optimization services for modern businesses.
+              Comprehensive disaster recovery planning and IT infrastructure management.
             </p>
           </header>
 
@@ -28,17 +28,17 @@ const CloudComputing = () => {
               Coming Soon
             </h2>
             <p className="text-muted-foreground mb-4">
-              Detailed content about our cloud computing services will be available here soon. 
-              We specialize in AWS, Azure, and Google Cloud Platform management.
+              Disaster recovery and IT infrastructure services content will be available here soon. 
+              We ensure business continuity with robust disaster recovery solutions.
             </p>
             <div className="space-y-4">
               <h3 className="text-lg font-medium text-foreground">Services Include:</h3>
               <ul className="list-disc list-inside text-muted-foreground space-y-2">
-                <li>Cloud migration and deployment</li>
-                <li>Infrastructure as Code (IaC)</li>
-                <li>Auto-scaling and load balancing</li>
-                <li>Security and compliance management</li>
-                <li>Cost optimization</li>
+                <li>Disaster recovery planning</li>
+                <li>Business continuity strategies</li>
+                <li>Backup and replication systems</li>
+                <li>Infrastructure monitoring</li>
+                <li>Emergency response and recovery</li>
               </ul>
             </div>
           </section>
@@ -48,4 +48,4 @@ const CloudComputing = () => {
   );
 };
 
-export default CloudComputing;
+export default DisasterRecovery;

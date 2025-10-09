@@ -2,7 +2,7 @@ import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
-const OnPremiseServer = () => {
+const NetworkingSupport = () => {
   return (
     <div className="min-h-screen bg-gradient-subtle">
       <div className="container mx-auto px-4 py-16">
@@ -16,10 +16,10 @@ const OnPremiseServer = () => {
           
           <header className="mb-12">
             <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-              On-Premise Server Management
+              Networking and Support
             </h1>
             <p className="text-xl text-muted-foreground">
-              Complete on-premise server infrastructure management and maintenance for maximum control and security.
+              Comprehensive networking solutions and technical support for your infrastructure.
             </p>
           </header>
 
@@ -28,17 +28,17 @@ const OnPremiseServer = () => {
               Coming Soon
             </h2>
             <p className="text-muted-foreground mb-4">
-              On-premise server management services content will be available here soon. 
-              We provide comprehensive physical and virtual server management solutions.
+              Networking and support services content will be available here soon. 
+              We offer complete networking solutions and ongoing technical support.
             </p>
             <div className="space-y-4">
               <h3 className="text-lg font-medium text-foreground">Services Include:</h3>
               <ul className="list-disc list-inside text-muted-foreground space-y-2">
-                <li>Server hardware setup and configuration</li>
-                <li>Operating system installation and maintenance</li>
-                <li>Security hardening and monitoring</li>
-                <li>Performance optimization</li>
-                <li>24/7 server monitoring and support</li>
+                <li>Network design and implementation</li>
+                <li>Firewall and security configuration</li>
+                <li>VPN and remote access setup</li>
+                <li>Network monitoring and troubleshooting</li>
+                <li>24/7 technical support</li>
               </ul>
             </div>
           </section>
@@ -48,4 +48,4 @@ const OnPremiseServer = () => {
   );
 };
 
-export default OnPremiseServer;
+export default NetworkingSupport;

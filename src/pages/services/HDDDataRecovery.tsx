@@ -2,7 +2,7 @@ import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
-const Backup = () => {
+const HDDDataRecovery = () => {
   return (
     <div className="min-h-screen bg-gradient-subtle">
       <div className="container mx-auto px-4 py-16">
@@ -16,10 +16,10 @@ const Backup = () => {
           
           <header className="mb-12">
             <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-              Backup & Recovery Services
+              HDD Data Recovery
             </h1>
             <p className="text-xl text-muted-foreground">
-              Reliable data backup and disaster recovery solutions to protect your business-critical information.
+              Professional data recovery services for failed or damaged hard drives.
             </p>
           </header>
 
@@ -28,17 +28,17 @@ const Backup = () => {
               Coming Soon
             </h2>
             <p className="text-muted-foreground mb-4">
-              Detailed backup and recovery services information will be available here soon. 
-              We ensure your data is always protected and recoverable.
+              HDD data recovery services content will be available here soon. 
+              We specialize in recovering data from damaged or failed storage devices.
             </p>
             <div className="space-y-4">
               <h3 className="text-lg font-medium text-foreground">Services Include:</h3>
               <ul className="list-disc list-inside text-muted-foreground space-y-2">
-                <li>Automated backup solutions</li>
-                <li>Disaster recovery planning</li>
-                <li>Data archiving and retention</li>
-                <li>Backup testing and validation</li>
-                <li>Cloud and on-premise backup strategies</li>
+                <li>Hard drive failure diagnosis</li>
+                <li>Data extraction and recovery</li>
+                <li>SSD and flash drive recovery</li>
+                <li>RAID array recovery</li>
+                <li>Emergency data recovery services</li>
               </ul>
             </div>
           </section>
@@ -48,4 +48,4 @@ const Backup = () => {
   );
 };
 
-export default Backup;
+export default HDDDataRecovery;

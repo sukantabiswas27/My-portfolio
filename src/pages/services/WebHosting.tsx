@@ -2,7 +2,7 @@ import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
-const DomainHosting = () => {
+const WebHosting = () => {
   return (
     <div className="min-h-screen bg-gradient-subtle">
       <div className="container mx-auto px-4 py-16">
@@ -16,10 +16,10 @@ const DomainHosting = () => {
           
           <header className="mb-12">
             <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-              Domain & Hosting Services
+              Web Hosting
             </h1>
             <p className="text-xl text-muted-foreground">
-              Reliable domain registration and web hosting solutions with 99.9% uptime guarantee and 24/7 support.
+              Reliable and scalable web hosting solutions for your business needs.
             </p>
           </header>
 
@@ -28,17 +28,17 @@ const DomainHosting = () => {
               Coming Soon
             </h2>
             <p className="text-muted-foreground mb-4">
-              Domain and hosting services content will be available here soon. 
-              We provide comprehensive web hosting and domain management solutions.
+              Comprehensive web hosting services content will be available here soon. 
+              We provide secure, fast, and reliable hosting solutions.
             </p>
             <div className="space-y-4">
               <h3 className="text-lg font-medium text-foreground">Services Include:</h3>
               <ul className="list-disc list-inside text-muted-foreground space-y-2">
-                <li>Domain registration and management</li>
-                <li>Shared and dedicated hosting</li>
-                <li>SSL certificate installation</li>
-                <li>Website migration services</li>
-                <li>DNS management and optimization</li>
+                <li>Shared hosting solutions</li>
+                <li>VPS and dedicated servers</li>
+                <li>Cloud hosting infrastructure</li>
+                <li>SSL certificates and security</li>
+                <li>24/7 monitoring and support</li>
               </ul>
             </div>
           </section>
@@ -48,4 +48,4 @@ const DomainHosting = () => {
   );
 };
 
-export default DomainHosting;
+export default WebHosting;

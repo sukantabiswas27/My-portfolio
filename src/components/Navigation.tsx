@@ -39,22 +39,15 @@ const Navigation = () => {
     { id: "certifications", label: "Certifications" },
   ];
 
-  const freelanceCategories = [
-    { label: "Cloud Computing", href: "/blog/cloud-computing" },
-    { label: "Networking", href: "/blog/networking" },
-    { label: "Backup", href: "/blog/backup" },
-    { label: "AI", href: "/blog/ai" },
-    { label: "VM", href: "/blog/vm" },
-    { label: "On-Premise Server Management", href: "/blog/on-premise-server" },
-  ];
-
   const services = [
-    { label: "Web App Development", href: "/blog/web-app-development" },
-    { label: "Mobile App Development", href: "/blog/mobile-app-development" },
-    { label: "E-commerce Development", href: "/blog/ecommerce-development" },
-    { label: "Domain and Hosting", href: "/blog/domain-hosting" },
-    { label: "Email Marketing", href: "/blog/email-marketing" },
-    { label: "Google and Meta Ads", href: "/blog/google-meta-ads" },
+    { label: "Web Hosting", href: "/services/web-hosting" },
+    { label: "CI/CD Pipeline", href: "/services/cicd-pipeline" },
+    { label: "FTP and NAS", href: "/services/ftp-nas" },
+    { label: "Networking and Support", href: "/services/networking-support" },
+    { label: "HDD Data Recovery", href: "/services/hdd-data-recovery" },
+    { label: "International Calling", href: "/services/international-calling" },
+    { label: "On-Premise Virtualization", href: "/services/on-premise-virtualization" },
+    { label: "Disaster Recovery & IT Infrastructure", href: "/services/disaster-recovery" },
   ];
 
   return (
@@ -83,26 +76,13 @@ const Navigation = () => {
               </button>
             ))}
             
-            {/* Freelance Dropdown */}
+            {/* Services Dropdown */}
             <DropdownMenu>
               <DropdownMenuTrigger className="flex items-center text-foreground hover:text-primary transition-colors duration-200 font-medium outline-none">
-                Freelance
+                Services
                 <ChevronDown className="w-4 h-4 ml-1" />
               </DropdownMenuTrigger>
-              <DropdownMenuContent className="w-56 bg-card border-border shadow-elegant">
-                <DropdownMenuLabel className="text-primary font-semibold">Freelance Categories</DropdownMenuLabel>
-                {freelanceCategories.map((category) => (
-                  <DropdownMenuItem key={category.href} asChild>
-                    <a
-                      href={category.href}
-                      className="cursor-pointer hover:bg-muted focus:bg-muted transition-colors"
-                    >
-                      {category.label}
-                    </a>
-                  </DropdownMenuItem>
-                ))}
-                <DropdownMenuSeparator />
-                <DropdownMenuLabel className="text-primary font-semibold">Services</DropdownMenuLabel>
+              <DropdownMenuContent className="w-64 bg-card border-border shadow-elegant">
                 {services.map((service) => (
                   <DropdownMenuItem key={service.href} asChild>
                     <a
@@ -154,23 +134,9 @@ const Navigation = () => {
                 </button>
               ))}
               
-              {/* Mobile Freelance Section */}
+              {/* Mobile Services Section */}
               <div className="border-t border-border pt-4">
                 <div className="text-primary font-semibold mb-2 text-sm uppercase tracking-wide">
-                  Freelance Categories
-                </div>
-                {freelanceCategories.map((category) => (
-                  <a
-                    key={category.href}
-                    href={category.href}
-                    className="block w-full text-left text-foreground hover:text-primary transition-colors duration-200 py-1 pl-4 text-sm"
-                    onClick={() => setIsOpen(false)}
-                  >
-                    {category.label}
-                  </a>
-                ))}
-                
-                <div className="text-primary font-semibold mb-2 mt-4 text-sm uppercase tracking-wide">
                   Services
                 </div>
                 {services.map((service) => (

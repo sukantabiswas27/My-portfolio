@@ -2,7 +2,7 @@ import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
-const AI = () => {
+const InternationalCalling = () => {
   return (
     <div className="min-h-screen bg-gradient-subtle">
       <div className="container mx-auto px-4 py-16">
@@ -16,10 +16,10 @@ const AI = () => {
           
           <header className="mb-12">
             <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-              AI & Machine Learning
+              International Calling
             </h1>
             <p className="text-xl text-muted-foreground">
-              Cutting-edge artificial intelligence and machine learning solutions for business automation and insights.
+              Cost-effective international calling solutions for businesses and individuals.
             </p>
           </header>
 
@@ -28,17 +28,17 @@ const AI = () => {
               Coming Soon
             </h2>
             <p className="text-muted-foreground mb-4">
-              AI and machine learning services content will be available here soon. 
-              We help businesses leverage AI for competitive advantage.
+              International calling services content will be available here soon. 
+              We provide affordable and reliable international communication solutions.
             </p>
             <div className="space-y-4">
               <h3 className="text-lg font-medium text-foreground">Services Include:</h3>
               <ul className="list-disc list-inside text-muted-foreground space-y-2">
-                <li>AI strategy and consulting</li>
-                <li>Machine learning model development</li>
-                <li>Natural language processing</li>
-                <li>Computer vision solutions</li>
-                <li>AI infrastructure deployment</li>
+                <li>VoIP international calling</li>
+                <li>Business phone systems</li>
+                <li>Virtual phone numbers</li>
+                <li>Conference calling solutions</li>
+                <li>Call recording and analytics</li>
               </ul>
             </div>
           </section>
@@ -48,4 +48,4 @@ const AI = () => {
   );
 };
 
-export default AI;
+export default InternationalCalling;

@@ -2,7 +2,7 @@ import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
-const WebAppDevelopment = () => {
+const CICDPipeline = () => {
   return (
     <div className="min-h-screen bg-gradient-subtle">
       <div className="container mx-auto px-4 py-16">
@@ -16,10 +16,10 @@ const WebAppDevelopment = () => {
           
           <header className="mb-12">
             <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-              Web App Development
+              CI/CD Pipeline
             </h1>
             <p className="text-xl text-muted-foreground">
-              Custom web application development using modern technologies for scalable and responsive solutions.
+              Automated continuous integration and deployment pipelines for faster, reliable releases.
             </p>
           </header>
 
@@ -28,17 +28,17 @@ const WebAppDevelopment = () => {
               Coming Soon
             </h2>
             <p className="text-muted-foreground mb-4">
-              Web application development services content will be available here soon. 
-              We build robust, scalable web applications using the latest technologies.
+              CI/CD pipeline services content will be available here soon. 
+              We help streamline your development workflow with automation.
             </p>
             <div className="space-y-4">
               <h3 className="text-lg font-medium text-foreground">Services Include:</h3>
               <ul className="list-disc list-inside text-muted-foreground space-y-2">
-                <li>Full-stack web development</li>
-                <li>Progressive Web Apps (PWAs)</li>
-                <li>API development and integration</li>
-                <li>Database design and optimization</li>
-                <li>Performance optimization and SEO</li>
+                <li>Pipeline architecture and design</li>
+                <li>Automated testing integration</li>
+                <li>Deployment automation</li>
+                <li>Version control integration</li>
+                <li>Monitoring and rollback strategies</li>
               </ul>
             </div>
           </section>
@@ -48,4 +48,4 @@ const WebAppDevelopment = () => {
   );
 };
 
-export default WebAppDevelopment;
+export default CICDPipeline;
