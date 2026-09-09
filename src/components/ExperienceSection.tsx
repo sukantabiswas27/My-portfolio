@@ -46,7 +46,7 @@ const ExperienceSection = () => {
                         </div>
                         <div className="flex items-center text-muted-foreground text-sm">
                           <MapPin className="w-4 h-4 mr-2" />
-                          <span>Remote</span>
+                          <span>Kolkata</span>
                         </div>
                       </div>
                     </div>
