@@ -179,6 +179,58 @@ const ExperienceSection = () => {
                   </Card>
                 </div>
               </div>
+
+              {/* Thinksurfmedia LLP */}
+              <div className="relative flex flex-col md:flex-row-reverse items-start">
+                {/* Timeline Dot */}
+                <div className="absolute left-6 md:left-1/2 w-4 h-4 bg-primary rounded-full transform md:-translate-x-2 z-10"></div>
+                
+                <div className="w-full md:w-1/2 md:pl-8 pl-16 md:pr-0">
+                  <Card className="p-6 shadow-soft hover:shadow-medium transition-all duration-300 md:ml-8">
+                    <div className="flex items-start justify-between mb-4">
+                      <div>
+                        <h3 className="text-xl font-semibold text-foreground mb-1">
+                          System Administrator
+                        </h3>
+                        <div className="flex items-center text-primary mb-2">
+                          <Building2 className="w-4 h-4 mr-2" />
+                          <span className="font-medium">Thinksurfmedia LLP</span>
+                        </div>
+                        <div className="flex items-center text-muted-foreground text-sm mb-2">
+                          <Calendar className="w-4 h-4 mr-2" />
+                          <span>2024 - 2025</span>
+                        </div>
+                        <div className="flex items-center text-muted-foreground text-sm">
+                          <MapPin className="w-4 h-4 mr-2" />
+                          <span>Kolkata</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <p className="text-muted-foreground mb-4">
+                      Leading system administration initiatives, managing Linux servers, 
+                      implementing LAMP stack solutions, and ensuring optimal system performance.
+                    </p>
+                    
+                    <div className="space-y-3 mb-4">
+                      <h4 className="font-medium text-foreground">Key Responsibilities:</h4>
+                      <ul className="text-sm text-muted-foreground space-y-1">
+                        <li>• Linux server management and optimization</li>
+                        <li>• LAMP stack deployment and configuration</li>
+                        <li>• System monitoring and performance tuning</li>
+                        <li>• Backup and disaster recovery planning</li>
+                      </ul>
+                    </div>
+                    
+                    <div className="flex flex-wrap gap-2">
+                      <Badge variant="secondary">Linux</Badge>
+                      <Badge variant="secondary">LAMP Stack</Badge>
+                      <Badge variant="secondary">Docker</Badge>
+                      <Badge variant="secondary">Monitoring</Badge>
+                    </div>
+                  </Card>
+                </div>
+              </div>
             </div>
           </div>
         </div>
