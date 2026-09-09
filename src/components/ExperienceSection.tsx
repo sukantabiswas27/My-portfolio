@@ -178,7 +178,6 @@ const ExperienceSection = () => {
                     </div>
                   </Card>
                 </div>
-                </div>
               </div>
 
               {/* Thinksurfmedia LLP */}
