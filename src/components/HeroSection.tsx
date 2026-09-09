@@ -23,12 +23,10 @@ const HeroSection = () => {
                 Sukanta Biswas
               </h1>
               <h2 className="text-2xl md:text-3xl font-light text-white/90 mb-6">
-                System Administrator
+                Site Reliability Engineer (SRE)
               </h2>
               <p className="text-lg md:text-xl text-white/80 leading-relaxed mb-12">
-                System Administrator with 2+ years of experience in Linux server 
-                management, LAMP stack deployment, cloud platforms, and IT infrastructure 
-                support. Skilled in troubleshooting, DevOps, Docker, and automation.
+                Site Reliability Engineer with hands-on experience in AWS Cloud Infrastructure and on-premises server environments, working with Docker, CI/CD pipelines, monitoring, and Disaster Recovery. Skilled in deploying and maintaining reliable cloud infrastructure using AWS EC2, VPC, IAM, S3, RDS, and CloudWatch, along with Prometheus and Grafana for monitoring and observability. Experienced in infrastructure troubleshooting, automation, system reliability, and production support.
               </p>
               
               {/* CTA Buttons */}
