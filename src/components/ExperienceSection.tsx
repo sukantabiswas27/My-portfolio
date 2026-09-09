@@ -142,11 +142,11 @@ const ExperienceSection = () => {
                         </h3>
                         <div className="flex items-center text-primary mb-2">
                           <Building2 className="w-4 h-4 mr-2" />
-                          <span className="font-medium">TechScale Solutions</span>
+                          <span className="font-medium">Chemtrols Infotech Pvt. Ltd.</span>
                         </div>
                         <div className="flex items-center text-muted-foreground text-sm mb-2">
                           <Calendar className="w-4 h-4 mr-2" />
-                          <span>2023 - 2024</span>
+                          <span>2025 – Present</span>
                         </div>
                         <div className="flex items-center text-muted-foreground text-sm">
                           <MapPin className="w-4 h-4 mr-2" />
