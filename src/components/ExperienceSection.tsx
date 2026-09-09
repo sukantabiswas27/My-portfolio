@@ -128,57 +128,6 @@ const ExperienceSection = () => {
                 </div>
               </div>
 
-              {/* Infodrive India Pvt Ltd */}
-              <div className="relative flex flex-col md:flex-row-reverse items-start">
-                {/* Timeline Dot */}
-                <div className="absolute left-6 md:left-1/2 w-4 h-4 bg-primary rounded-full transform md:-translate-x-2 z-10"></div>
-                
-                <div className="w-full md:w-1/2 md:pl-8 pl-16 md:pr-0">
-                  <Card className="p-6 shadow-soft hover:shadow-medium transition-all duration-300 md:ml-8">
-                    <div className="flex items-start justify-between mb-4">
-                      <div>
-                        <h3 className="text-xl font-semibold text-foreground mb-1">
-                          Junior System Administrator
-                        </h3>
-                        <div className="flex items-center text-primary mb-2">
-                          <Building2 className="w-4 h-4 mr-2" />
-                          <span className="font-medium">Infodrive India Pvt Ltd</span>
-                        </div>
-                        <div className="flex items-center text-muted-foreground text-sm mb-2">
-                          <Calendar className="w-4 h-4 mr-2" />
-                          <span>2021 - 2022</span>
-                        </div>
-                        <div className="flex items-center text-muted-foreground text-sm">
-                          <MapPin className="w-4 h-4 mr-2" />
-                          <span>Kolkata, India</span>
-                        </div>
-                      </div>
-                    </div>
-                    
-                    <p className="text-muted-foreground mb-4">
-                      Started career in system administration, focusing on IT infrastructure support, 
-                      troubleshooting, and learning cloud platform technologies.
-                    </p>
-                    
-                    <div className="space-y-3 mb-4">
-                      <h4 className="font-medium text-foreground">Key Responsibilities:</h4>
-                      <ul className="text-sm text-muted-foreground space-y-1">
-                        <li>• IT infrastructure support and maintenance</li>
-                        <li>• System troubleshooting and issue resolution</li>
-                        <li>• Cloud platform assistance and learning</li>
-                        <li>• Documentation and process improvement</li>
-                      </ul>
-                    </div>
-                    
-                    <div className="flex flex-wrap gap-2">
-                      <Badge variant="secondary">IT Support</Badge>
-                      <Badge variant="secondary">Troubleshooting</Badge>
-                      <Badge variant="secondary">Cloud Platforms</Badge>
-                      <Badge variant="secondary">Documentation</Badge>
-                    </div>
-                  </Card>
-                </div>
-              </div>
 
 
               {/* Thinksurfmedia LLP */}
@@ -228,6 +177,58 @@ const ExperienceSection = () => {
                       <Badge variant="secondary">LAMP Stack</Badge>
                       <Badge variant="secondary">Docker</Badge>
                       <Badge variant="secondary">Monitoring</Badge>
+                    </div>
+                  </Card>
+                </div>
+              </div>
+
+              {/* Infodrive India Pvt Ltd */}
+              <div className="relative flex flex-col md:flex-row-reverse items-start">
+                {/* Timeline Dot */}
+                <div className="absolute left-6 md:left-1/2 w-4 h-4 bg-primary rounded-full transform md:-translate-x-2 z-10"></div>
+                
+                <div className="w-full md:w-1/2 md:pl-8 pl-16 md:pr-0">
+                  <Card className="p-6 shadow-soft hover:shadow-medium transition-all duration-300 md:ml-8">
+                    <div className="flex items-start justify-between mb-4">
+                      <div>
+                        <h3 className="text-xl font-semibold text-foreground mb-1">
+                          Junior System Administrator
+                        </h3>
+                        <div className="flex items-center text-primary mb-2">
+                          <Building2 className="w-4 h-4 mr-2" />
+                          <span className="font-medium">Infodrive India Pvt Ltd</span>
+                        </div>
+                        <div className="flex items-center text-muted-foreground text-sm mb-2">
+                          <Calendar className="w-4 h-4 mr-2" />
+                          <span>2021 - 2022</span>
+                        </div>
+                        <div className="flex items-center text-muted-foreground text-sm">
+                          <MapPin className="w-4 h-4 mr-2" />
+                          <span>Kolkata, India</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <p className="text-muted-foreground mb-4">
+                      Started career in system administration, focusing on IT infrastructure support, 
+                      troubleshooting, and learning cloud platform technologies.
+                    </p>
+                    
+                    <div className="space-y-3 mb-4">
+                      <h4 className="font-medium text-foreground">Key Responsibilities:</h4>
+                      <ul className="text-sm text-muted-foreground space-y-1">
+                        <li>• IT infrastructure support and maintenance</li>
+                        <li>• System troubleshooting and issue resolution</li>
+                        <li>• Cloud platform assistance and learning</li>
+                        <li>• Documentation and process improvement</li>
+                      </ul>
+                    </div>
+                    
+                    <div className="flex flex-wrap gap-2">
+                      <Badge variant="secondary">IT Support</Badge>
+                      <Badge variant="secondary">Troubleshooting</Badge>
+                      <Badge variant="secondary">Cloud Platforms</Badge>
+                      <Badge variant="secondary">Documentation</Badge>
                     </div>
                   </Card>
                 </div>
