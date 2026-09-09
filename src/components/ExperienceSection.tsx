@@ -24,6 +24,58 @@ const ExperienceSection = () => {
 
             {/* Experience Items */}
             <div className="space-y-12">
+              {/* Chemtrols Infotech Pvt. Ltd. */}
+              <div className="relative flex flex-col md:flex-row items-start">
+                {/* Timeline Dot */}
+                <div className="absolute left-6 md:left-1/2 w-4 h-4 bg-primary rounded-full transform md:-translate-x-2 z-10"></div>
+                
+                <div className="w-full md:w-1/2 md:pr-8 pl-16 md:pl-0">
+                  <Card className="p-6 shadow-soft hover:shadow-medium transition-all duration-300 md:mr-8">
+                    <div className="flex items-start justify-between mb-4">
+                      <div>
+                        <h3 className="text-xl font-semibold text-foreground mb-1">
+                          Site Reliability Engineer
+                        </h3>
+                        <div className="flex items-center text-primary mb-2">
+                          <Building2 className="w-4 h-4 mr-2" />
+                          <span className="font-medium">Chemtrols Infotech Pvt. Ltd.</span>
+                        </div>
+                        <div className="flex items-center text-muted-foreground text-sm mb-2">
+                          <Calendar className="w-4 h-4 mr-2" />
+                          <span>2025 – Present</span>
+                        </div>
+                        <div className="flex items-center text-muted-foreground text-sm">
+                          <MapPin className="w-4 h-4 mr-2" />
+                          <span>Remote</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <p className="text-muted-foreground mb-4">
+                      Focused on cloud infrastructure reliability, automation, and monitoring 
+                      for production workloads across AWS and on-premises environments.
+                    </p>
+                    
+                    <div className="space-y-3 mb-4">
+                      <h4 className="font-medium text-foreground">Key Responsibilities:</h4>
+                      <ul className="text-sm text-muted-foreground space-y-1">
+                        <li>• AWS EC2, VPC, IAM, S3, RDS, and CloudWatch administration</li>
+                        <li>• Docker containerization and CI/CD pipeline implementation</li>
+                        <li>• Prometheus and Grafana monitoring and observability</li>
+                        <li>• Disaster recovery planning and production incident response</li>
+                      </ul>
+                    </div>
+                    
+                    <div className="flex flex-wrap gap-2">
+                      <Badge variant="secondary">AWS</Badge>
+                      <Badge variant="secondary">Docker</Badge>
+                      <Badge variant="secondary">CI/CD</Badge>
+                      <Badge variant="secondary">Prometheus</Badge>
+                    </div>
+                  </Card>
+                </div>
+              </div>
+
               {/* Thinksurfmedia LLP */}
               <div className="relative flex flex-col md:flex-row items-start">
                 {/* Timeline Dot */}
